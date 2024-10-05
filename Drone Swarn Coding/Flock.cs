@@ -44,6 +44,7 @@ public class Flock
         return totalBattery / num;
     }
 
+    // ⁠Nur Fatihah binti Mohd Noor (24000227)
     public float max()
     {
         if (num == 0) return 0;
@@ -83,7 +84,8 @@ public class Flock
         
     }
 
-   public void appendFront(Drone val)
+   //Dania Adriana Binti Mohd Faizal (22006373)
+    public void appendFront(Drone val)
     {
         if (num >= agents.Length)
         {
@@ -132,7 +134,7 @@ public class Flock
         num++;  // Increase the count of drones
     }
 
-    
+    //Nurul Haniizati binti Hazli(24000182)
     public void deleteFront(int index)
     {
         if (index < 0 || index >= num)
@@ -166,7 +168,7 @@ public class Flock
 
     } 
     
-    
+    //⁠Sara Eudora Binti Said (24000574) 
     public void bubblesort()
     {
         // Outer loop: Iterate through the entire array
@@ -190,6 +192,7 @@ public class Flock
         }
     }
 
+    //Zulaikha binti Mohd Azhar (24000918)
     public void insertionsort()
     {
         // Sort the drones by Temperature using insertion sort
